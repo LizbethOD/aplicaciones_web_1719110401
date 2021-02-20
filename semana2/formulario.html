@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>FORMULARIO HTML</title>
+    </head>
+    <body bgcolor="#ECD4FF">
+      <title>FORMULARIO HTML</title>
+    </head>
+    <center><th>
+    <h1>FORMULARIO</h1>
+    </th></center>
+
+    <form action="ejemplo.php" method="get">
+      <p>Nombre/s: <input type="text" name="nombre_completo" size="20"></p>
+
+      <p>Primer apellido: <input type="text" name="Primer_apellido" size="20"></p>
+
+      <p>Segundo apellido: <input type="text" name="segundo_apellido" size="20"></p>
+
+      <p>Fecha de nacimiento <label for="start">:</label>
+       <input type="date" id="start" name="trip-start"
+       value="2001-01-14"
+       min="1995-01-01" max="20010-01-01">
+    <form action="../../form-result.php" method="post" target="_blank">
+
+      <p>Edad: <input type="number" name="edad"> </p>
+    </form>
+
+      <p>Sexo:
+        <input type="radio" name="hm" value="h"> Hombre
+        <input type="radio" name="hm" value="m"> Mujer
+        <input type="radio" name="hm" value="o"> Otro
+      </p>
+
+      <label for="cars">Estado:</label>
+      <select name="estado" id="estado">
+      <option value="Hidalgo">Hidalgo</option>
+      <option value="Veracruz">Veracruz</option>
+      <option value="México">México</option>
+      <option value="Jalisco">Jalisco</option>
+      <option value="Guerrero">Guerrero</option>
+      <option value="Oaxaca">Oaxaca</option>
+      <option value="Puebla">Puebla</option>
+      <option value="Tabasco">Tabasco</option>
+      <option value="Yucatán">Yucatán</option>
+      <option value="Zacatecas">Zacatecas</option>
+      <option value="Chihuahua">Chihuahua</option>
+    </select>
+
+
+    <form action="../../form-result.php" method="post" target="_blank">       
+      <p>Dirección: <input type="text" name="ingrese un texto"</p>
+    </form>
+
+    Estado Civil:
+    <select name="select">
+    <option value="Soltero/a">Soltero/a</option> 
+    <option value="Casado/a" selected>Casado/a</option>
+    <option value="Unión libre">Unión libre</option>
+    <option value="Separado/a">Separado/a</option>
+    <option value="Divorciado/a">Divorciado/a</option>
+     <option value="Viudo/a">Viudo/a</option>
+  </select>
+
+ 
+    <p>
+     <input type="submit" value="Enviar">
+     <input type="reset" value="Borrar">
+    </p>
+
+  </form>
+    </body>
+</html>

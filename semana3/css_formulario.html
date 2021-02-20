@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>FORMULARIO HTML5</title>
+    </head>
+    <body>
+      <title>FORMULARIO HTML5</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+
+    <center><th>
+    <h1 class="display-4">FORMULARIO</h1>
+    </th></center> 
+     
+    <center> 
+    <form id="form1" mehotd="post">
+      <label>Matricula: </label>
+      <input type="number" name="matricula" class="form-control" required> 
+
+      <label>Nombre: </label>
+      <input type="text" name="nombre" class="form-control" required> 
+
+      <label>Primer Apellido: </label>
+      <input type="text" name="primerA" class="form-control" required> 
+
+      <label>Segundo Apellido: </label>
+      <input type="text" name="segundoA" class="form-control" required> 
+
+      <label>Edad: </label>
+      <input type="number" name="edad" class="form-control" required>
+
+      <label> Fecha de Nacimiento </label> 
+      <input type="date" name="FechaN" class="form-control" required> 
+      <br>
+
+      <label>Sexo: </label> 
+      <input type="radio" name="hm" value="h" required> Hombre
+      <input type="radio" name="hm" value="m" required> Mujer
+      <input type="radio" name="hm" value="o" required> Otro
+      <br> </br>
+
+      <label>Estado: </label>
+      <select name="estado" class="form-control>
+        <option value="Hidalgo">Hidalgo</option>
+        <option value="Veracruz">Veracruz</option>
+        <option value="México">México</option>
+        <option value="Jalisco">Jalisco</option>
+        <option value="Guerrero">Guerrero</option>
+        <option value="Oaxaca">Oaxaca</option>
+        <option value="Puebla">Puebla</option>
+        <option value="Tabasco">Tabasco</option>
+        <option value="Yucatán">Yucatán</option>
+        <option value="Zacatecas">Zacatecas</option>
+        <option value="Chihuahua">Chihuahua</option> 
+      </select>
+      <br> </br>
+
+      <p>
+          <input type="submit" value="Enviar">
+      </p>
+
+    </center>
+    </form> 
+
+    </body> 
+</html>
